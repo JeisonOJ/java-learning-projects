@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfd243af-7263-4f3a-a74f-1e413f30520c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaProjectsPOO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inventory/InventoryPOO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inventory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inventory/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inventory/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inventory/SpecificProduct.java" afterDir="false" />
-    </list>
+    <list default="true" id="bfd243af-7263-4f3a-a74f-1e413f30520c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +32,12 @@
     "last_opened_file_path": "E:/Java/JavaProjectsPOO/src/Inventory"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\JavaProjectsPOO\src\Inventory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.manageCourses.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Inventory.Main" />
       <module name="JavaProjectsPOO" />
@@ -52,8 +45,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="manageCourses.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="manageCourses.Main" />
+      <module name="JavaProjectsPOO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="manageCourses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.manageCourses.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
