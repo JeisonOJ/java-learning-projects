@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfd243af-7263-4f3a-a74f-1e413f30520c" name="Changes" comment="" />
+    <list default="true" id="bfd243af-7263-4f3a-a74f-1e413f30520c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/registerEmployees/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/registerEmployees/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/registerEmployees/EmpleadoPermanente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/registerEmployees/EmpleadoTemporal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/registerEmployees/GestionEmpleados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/registerEmployees/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manageCourses/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manageCourses/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,15 +33,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.manageCourses.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Java/JavaProjectsPOO/src/Inventory"
+    "last_opened_file_path": "E:/Java/JavaProjectsPOO/src/registerEmployees",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\JavaProjectsPOO\src\registerEmployees" />
+      <recent name="E:\Java\JavaProjectsPOO\src\manageCourses" />
       <recent name="E:\Java\JavaProjectsPOO\src\Inventory" />
     </key>
   </component>
@@ -64,6 +78,13 @@
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

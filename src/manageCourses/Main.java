@@ -1,5 +1,6 @@
 package manageCourses;
 
+
 import java.util.Scanner;
 
 public class Main {
