@@ -21,9 +21,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2dboqANeHPCUcBu7koeJdmxxvtS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,6 +32,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.manageCourses.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -51,7 +52,20 @@
       <recent name="E:\Java\JavaProjectsPOO\src\Inventory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.manageCourses.Main">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="registerEmployees.App" />
+      <module name="JavaProjectsPOO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="registerEmployees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Inventory.Main" />
       <module name="JavaProjectsPOO" />
@@ -74,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.manageCourses.Main" />
         <item itemvalue="Application.Main" />
       </list>
