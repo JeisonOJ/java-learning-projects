@@ -51,7 +51,6 @@ public class Course {
         String nameStudent = scanner.nextLine();
         System.out.print("Student email: ");
         String emailStudent = scanner.nextLine();
-
         Student student = new Student(idEstudent,nameStudent,emailStudent);
         idEstudent++;
         if (studentsList.add(student)){

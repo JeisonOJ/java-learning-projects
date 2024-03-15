@@ -12,10 +12,11 @@ public class Main {
         do {
             System.out.println("""
                                         
-                    ....::::: OPTION MENU :::::.....
+                    ....::::: OPTION MENU :::::..... 
                         1. Manage courses.
                         2. Manage student subscriptions for courses..
                         3. Exit.
+                        
                     """);
             option = scanner.nextInt();
             if (option==2){
@@ -32,8 +33,8 @@ public class Main {
                     int option2;
 
                     do {
-                        do {
-                            System.out.println("First, enter the course to manage students.\nPRESS ENTER TO CONTINUE");
+                        while (!enterCourse){
+                            System.out.println("\nFirst, enter the course to manage students.\nPRESS ENTER TO CONTINUE");
                             scanner.nextLine();
                             System.out.println("...:: Searching course ::...");
                             System.out.print("enter code course: ");
@@ -44,7 +45,8 @@ public class Main {
                             } else {
                                 System.out.println("There are no course with this code");
                             }
-                        }while (!enterCourse);
+                        }
+
 
                         System.out.println("""
                                                     
@@ -53,6 +55,7 @@ public class Main {
                                     2. Remove student.
                                     3. Show students.
                                     4. Exit.
+                                    
                                 """);
                         option2 = scanner.nextInt();
 
@@ -64,6 +67,7 @@ public class Main {
                                 course.removerStudent(scanner);
                                 break;
                             case 3:
+                                scanner.nextLine();
                                 course.showStudents();
                                 break;
                             case 4:
