@@ -1,6 +1,6 @@
 package registerEmployees;
 
-public class Empleado extends Persona{
+public class Employee extends Persona{
     private int id;
     private double salary;
 
@@ -28,7 +28,7 @@ public class Empleado extends Persona{
                 "} " + super.toString();
     }
 
-    public Empleado(String name, int age, int id, double salary) {
+    public Employee(String name, int age, int id, double salary) {
         super(name, age);
         this.id = id;
         this.salary = salary;

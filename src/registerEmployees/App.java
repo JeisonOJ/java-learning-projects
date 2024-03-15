@@ -1,18 +1,22 @@
 package registerEmployees;
 
-public class App 
+public class App
 {
     public static void main( String[] args )
     {
-        GestionEmpleados empleados = new GestionEmpleados();
+        manageEmployee employees = new manageEmployee();
 
-        Empleado empleado = new EmpleadoPermanente("jeison",29,1,10000000);
-        Empleado empleado2 = new EmpleadoTemporal("daniela",28,2,20000000);
+        Employee employee = new permanentEmployee("jeison",29,1,10000000);
+        Employee employee2 = new EmployeeTemporal("daniela",28,2,20000000);
 
-        empleados.agregarEmpleado(empleado);
-        empleados.agregarEmpleado(empleado2);
+        employees.addEmployee(employee);
+        employees.addEmployee(employee2);
 
-        empleados.mostrarEmpleados();
+        employees.showEmployees();
+
+        employees.removeEmployee(1);
+        System.out.println("remove employee by id = 1");
+        employees.showEmployees();
 
     }
 }

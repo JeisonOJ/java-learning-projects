@@ -44,7 +44,7 @@ public class ManageCourse {
                     showCourses();
                     break;
                 case 4:
-                    System.out.println("Leaving...");
+                    System.out.println("Leaving manage Courses...");
                     break;
 
             }

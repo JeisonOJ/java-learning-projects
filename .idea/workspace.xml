@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfd243af-7263-4f3a-a74f-1e413f30520c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/registerEmployees/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/registerEmployees/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/registerEmployees/EmpleadoPermanente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/registerEmployees/EmpleadoTemporal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/registerEmployees/GestionEmpleados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/registerEmployees/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manageCourses/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manageCourses/Course.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/manageCourses/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manageCourses/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manageCourses/ManageCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manageCourses/ManageCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manageCourses/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manageCourses/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/registerEmployees/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/registerEmployees/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/registerEmployees/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/registerEmployees/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/registerEmployees/EmpleadoPermanente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/registerEmployees/permanentEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/registerEmployees/EmpleadoTemporal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/registerEmployees/EmployeeTemporal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/registerEmployees/GestionEmpleados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/registerEmployees/manageEmployee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,21 +33,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.manageCourses.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Java/JavaProjectsPOO/src/registerEmployees",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.manageCourses.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Java/JavaProjectsPOO/src/registerEmployees&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Java\JavaProjectsPOO\src\registerEmployees" />
@@ -52,7 +55,7 @@
       <recent name="E:\Java\JavaProjectsPOO\src\Inventory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.manageCourses.Main">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="registerEmployees.App" />
       <module name="JavaProjectsPOO" />
@@ -88,8 +91,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="Application.manageCourses.Main" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

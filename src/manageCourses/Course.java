@@ -9,6 +9,9 @@ public class Course {
     private ArrayList<Student> studentsList;
 
     public static int idEstudent = 0;
+
+    public Course(){}
+
     public Course(String code, String name) {
         this.code = code;
         this.name = name;
@@ -42,6 +45,7 @@ public class Course {
     }
 
     public void addStudent(Scanner scanner) {
+        scanner.nextLine();
         System.out.println("...::New Student::...");
         System.out.print("Student name: ");
         String nameStudent = scanner.nextLine();
